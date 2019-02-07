@@ -1,0 +1,44 @@
+ruby:
+  versions:
+    - 'MRI <= 1.9.3'
+    - 'MRI >= 2.0.0'
+
+frameworks:
+  rails:
+    versions:
+      - 3
+      - 4
+      - 5
+  rack:
+  sinatra:
+    versions:
+      - 2
+  hanami:
+    versions:
+      - 1+
+
+auth:
+  - devise
+  - cancancan
+  - pundit
+background:
+  - sidekiq
+html:
+  - erubis(erb)
+  - haml
+  - slim
+  - liquid
+linter:
+  - rubocop
+javascript:
+  - sprockets
+  - webpacker
+parsing:
+  - nokogiri
+testing:
+  - capybara
+  - capybara-webkit
+  - rspec
+  - selenium-webdrive
+  - simplecov
+  - shoulda-matchers
