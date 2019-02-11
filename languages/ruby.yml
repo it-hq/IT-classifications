@@ -1,7 +1,8 @@
-ruby:
-  versions:
-    - 'MRI <= 1.9.3'
-    - 'MRI >= 2.0.0'
+implementations:
+  ruby:
+    versions:
+      - 'MRI <= 1.9.3'
+      - 'MRI >= 2.0.0'
 
 frameworks:
   rails:
